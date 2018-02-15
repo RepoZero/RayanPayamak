@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_verification"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ir.rayanpayamak.UI.Verification"
+    tools:ignore="GradleDependency"
+    android:layout_gravity="center"
+    >
+
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/main_shape"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/verfication_txt_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="کد تایید را وارد کنید"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/verfication_Edt_VerfyCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape_gray_rounded"
+            android:ems="10"
+            android:hint="کد تایید"
+            android:inputType="phone"
+            android:maxLength="14"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/verfication_Btn_SendVerfyCode"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#36a2a2"
+            android:text="ورود"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

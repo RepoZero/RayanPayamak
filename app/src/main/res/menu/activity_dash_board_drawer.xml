@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="قابلیت های ارسال"
+        tools:ignore="HardcodedText">
+        <menu>
+            <item
+                android:id="@+id/nav_Sms"
+                android:icon="@drawable/ic_menu_sms_black_24dp"
+                android:title="ارسال پیامک"/>
+            <item
+                android:id="@+id/nav_SM"
+                android:icon="@drawable/ic_menu_sound_message_black_24dp"
+                android:title="ارسال پیام صوتی"/>
+            <item
+                android:id="@+id/nav_Fax"
+                android:icon="@drawable/ic_menu_fax"
+                android:title="ارسال فکس"/>
+            <item
+                android:id="@+id/nav_Email"
+                android:icon="@drawable/ic_menu_email_black_24dp"
+                android:title="ارسال ایمیل" />
+            <item
+                android:id="@+id/nav_Social"
+                android:icon="@drawable/ic_menu_social_black_24dp"
+                android:title="ارسال در مسنجر و شبکه های اجتماعی"
+                tools:ignore="HardcodedText" />
+
+        </menu>
+    </item>
+
+
+
+    <item android:title="امکانات کاربران"
+        tools:ignore="HardcodedText">
+            <menu>
+            <item
+                android:id="@+id/nav_Store"
+                android:icon="@drawable/ic_menu_store_black_24dp"
+                android:title="فروشگاه"
+                tools:ignore="HardcodedText" />
+
+            <item
+                android:id="@+id/nav_Contacts"
+                android:icon="@drawable/ic_menu_person_black_24dp"
+                android:title="مخاطبین"
+                tools:ignore="HardcodedText" />
+
+            <item
+                android:id="@+id/nav_Settings"
+                android:icon="@drawable/ic_menu_settings_black_24dp"
+                android:title="تنظیمات"
+                tools:ignore="HardcodedText" />
+
+
+            <item
+                android:id="@+id/nav_Help"
+                android:icon="@drawable/ic_menu_help_black_24dp"
+                android:title="راهنما"
+                tools:ignore="HardcodedText" />
+
+
+
+
+            </menu>
+    </item>
+
+
+
+    <item android:title="امکانات نمایندگان"
+        tools:ignore="HardcodedText">
+        <menu>
+            <item
+                android:id="@+id/nav_Agent"
+                android:icon="@drawable/ic_menu_agent_black_24dp"
+                android:title="ورود به پنل نمایندگی"
+                tools:ignore="HardcodedText" />
+
+        </menu>
+    </item>
+
+
+
+    <item
+        android:id="@+id/nav_Exit"
+        android:icon="@drawable/ic_menu_exit_black_24dp"
+        android:title="خروج"
+        tools:ignore="HardcodedText" />
+
+
+
+
+
+
+
+
+
+</menu>

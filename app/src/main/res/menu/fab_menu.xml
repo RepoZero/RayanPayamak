@@ -1,0 +1,29 @@
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/fab_Sms"
+        android:icon="@drawable/ic_menu_sms_black_24dp"
+        android:title="ارسال پیامک"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/fab_SM"
+        android:icon="@drawable/ic_menu_sound_message_black_24dp"
+        android:title="ارسال پیام صوتی"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/fab_Fax"
+        android:icon="@drawable/ic_menu_fax"
+        android:title="ارسال فکس"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/fab_Email"
+        android:icon="@drawable/ic_menu_email_black_24dp"
+        android:title="ارسال ایمیل"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/fab_social"
+        android:icon="@drawable/ic_menu_social_black_24dp"
+        android:title="ارسال در مسنجر و شبکه های اجتماعی"
+        tools:ignore="HardcodedText" />
+</menu>
